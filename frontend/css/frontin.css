@@ -1,0 +1,29 @@
+
+		#wrapper
+		{
+			margin: -8px -8px;
+		}
+		#header
+		{	position: sticky;
+			background: black;
+			color: white;
+			height: 109px;
+			padding: 1px 14px;
+			
+		}
+		/*.wrapper{width: 80%;margin-left: 3%;margin-top: 1%}*/
+		.container1{margin-left: 5%}
+		.insert{float:left;width:25%;float: left;margin-top: 5%;margin-left: 5%}
+		.insert input{margin-top:22px;width: 120%; padding: 10px;opacity: 0.8}
+		.contact{background-color: rgb(199, 197, 197);width:30%;float:left;margin-left: 15%;margin-top: 25%;padding: 2%}
+		.contact li{list-style: none;padding: 5px}
+		.navbar{ width: 20%;float:left;}
+		.navbar ul {list-style-type: none;}
+		.navbar li {text-decoration-style:  none; text-align: right;font-size: 20px;padding-bottom: 20px;float: left}
+		a{text-decoration: none;color: black;}
+		a:hover{color: orange;}
+
+
+
+
+		

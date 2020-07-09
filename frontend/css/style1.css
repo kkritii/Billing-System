@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+/* font-family: 'Leckerli One', cursive; */
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
+
+/*
+
+********************************************************  HTML and BODY     ******************************
+
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+p {
+    font-family: "Open sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+section {
+    background: #fff;
+    overflow: hidden;
+}
+
+#home {
+    background: none;
+    height: 100%;
+    /* display: none; */
+
+}
+
+
+/******************************************************** Content boxes    ******************************
+
+*/
+.content-box-lg {
+   
+    padding: 80px 0px;
+    /* display: none; */
+}
+
+.content-box-md {
+    padding: 80px 0px;
+}
+
+
+/*
+
+********************************************************  vertical heading Stylings      ******************************
+
+*/
+#about-left .vertical-heading {
+    min-height: 160px;
+    //background-color: red;
+}
+
+.vertical-heading h5 {
+    color: #f4c613;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    display: inline-block;
+    /*background: #212226;
+    */
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    position: relative;
+    top: 30px;
+    left: -100px;
+
+}
+
+.vertical-heading h3 {
+    margin: 0 0 0 35px;
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 75px;
+    font-family: "Pacifico" !important;
+}
+table 
+{
+    width: 100%;
+    padding: 10px;
+}
+table th,td
+{
+    padding: 7px;
+}
+
+
+
+/*
+
+******************************************************** About styling part1      ******************************
+
+*/
+
+#about-right p:first-child {
+    margin-bottom: 10px;
+}
+
+
+
+strong {
+    font-weight: 600;
+}
+
+
+
+
+
+input[type = number],select{
+    background-color: #111;
+    padding-left: 10px;
+    color: #fff;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    width: 40%; 
+}
+input[type = submit]{
+    background-color: #ee1111;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 80px;
+    padding: 5px;
+    width: 40%;
+    /*padding: 0px 20px 0px 20px;*/
+}
+input[type = submit]:hover{
+    background-color: #ff1111;
+    transform: 0.5s ease;
+
+}
+label
+{
+    display: inline-block;
+    width: 25%;
+}
+.footer {
+    width: 95%;
+    border: solid;
+    background-color: #242926;
+    margin-top: -1%;
+    position: absolute;
+    padding: 2%;
+}
+
+.footer h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    z-index: -1;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: row;
+    /* z-index: -1; */
+    color: white;
+    justify-content: space-around;
+}
+
+.footer1 a {
+    padding: 1%;
+    margin: 1%;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+}
+
+.footer1 .column11 a:hover {
+    /* background-color: #fff; */
+    color: rgb(65, 62, 62);
+    font-size: 1rem;
+    list-style-type: none;
+    text-underline-position: none;
+}
+
+
+

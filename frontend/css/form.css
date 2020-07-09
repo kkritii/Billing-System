@@ -1,0 +1,30 @@
+/*css of form in*/
+		*{box-sizing: border-box;}
+		.container{
+			width:30%;
+			border-radius: 5px; background-color: #f2f2f2;
+			padding: 20px; margin:15% 5%;
+		}
+		
+		input[type=email],input[type=Date],input[type=number],input[type=text],input[type=password]{
+			width: 80%; padding: 12px;
+			border:1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+			margin-top: 6px;
+			margin-bottom: 6px;
+			resize: vertical;
+		}
+		input[type=submit]{
+			background-color: #d9534f;
+			color:white; padding: 12px 30px;
+			border-color: #d43f3a;
+			border-radius: 4px; cursor: pointer;
+		}
+		input[type=submit]:hover{
+			background-color: #d43f3a;
+		}
+		.container ul{list-style-type: none;}
+		.container li{float: left;padding-left: 0.5%;padding-right: 0.5%}
+
+		table{float: left;}
